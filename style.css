@@ -33,13 +33,12 @@ a {
 
 .topbar {
 	position: relative;
-	height: 104px;
+	height: 152px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 
-.topbar-note,
 .page-footer,
 .hero-caption,
 .vertical-label {
@@ -48,16 +47,12 @@ a {
 	letter-spacing: 1.8px;
 }
 
-.topbar-note {
-	color: var(--muted);
-}
-
 .profile-link {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	width: 66px;
-	height: 66px;
+	width: 112px;
+	height: 112px;
 	padding: 3px;
 	border: 1px solid #b8d3ca;
 	border-radius: 50%;
@@ -298,17 +293,12 @@ h1 em {
 	}
 
 	.topbar {
-		height: 88px;
+		height: 120px;
 	}
 
 	.profile-link {
-		width: 58px;
-		height: 58px;
-	}
-
-	.topbar-note {
-		font-size: 8px;
-		letter-spacing: 1px;
+		width: 88px;
+		height: 88px;
 	}
 
 	.hero {
