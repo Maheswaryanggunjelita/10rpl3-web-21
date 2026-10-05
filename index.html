@@ -1,21 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="theme-color" content="#073b4c">
+    <title>Beranda | Portal Data dan Biodata</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
- class="container">    
-</div>
+    <main class="page-shell">
+        <header class="topbar">
+            <span class="topbar-note">PORTAL DATA & BIODATA</span>
+            <a class="profile-link" href="https://github.com/Maheswaryanggunjelita" target="_blank" rel="noopener noreferrer" aria-label="Profil GitHub Maheswaryanggunjelita">
+                <img src="https://github.com/Maheswaryanggunjelita.png?size=96" alt="Foto profil GitHub Maheswaryanggunjelita">
+            </a>
+        </header>
 
-<!-- Daftar Tombol Menu -->
-<div class="menu-list">
-    <!-- Ganti tanda # dengan link file html atau link tujuan Bapak -->
-    <a href="form_biodata.html" class="menu-item"><span>📊</span> Form Biodata</a>
-    <a href="hasil_biodata.html" class="menu-item"><span>📋</span> Hasil Biodata</a>
-    <a href="tabel.html" class="menu-item"><span>🔍</span> Tabel</a>
-</div>
+        <section class="hero" aria-labelledby="hero-title">
+            <img class="hero-image" src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=2200&q=85" alt="Ombak laut biru yang berkilau diterpa cahaya matahari">
+            <div class="hero-shade"></div>
+            <div class="hero-content">
+                <p class="eyebrow"><span></span> MENYAPA DARI LAUTAN</p>
+                <h1 id="hero-title">Seluas samudra,<br><em>penuh cerita.</em></h1>
+                <p class="hero-copy">Ruang sederhana untuk mengenal data, mencatat biodata, dan melihat semuanya dalam satu tempat.</p>
+                <a class="primary-link" href="form_biodata.html">Mulai jelajah <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+            </div>
+            <div class="hero-caption"><span>01 / 03</span><span>LAUTAN YANG TAK BERTEPI</span></div>
+            <span class="vertical-label" aria-hidden="true">OCEAN • EXPLORE • DISCOVER</span>
+        </section>
+
+        <nav class="menu-list" aria-label="Menu utama">
+            <a href="form_biodata.html" class="menu-item">
+                <span class="menu-icon" aria-hidden="true"><i data-lucide="file-user"></i></span>
+                <span class="menu-label"><strong>Form Biodata</strong><small>Tambahkan data baru</small></span>
+                <i class="menu-arrow" data-lucide="arrow-up-right" aria-hidden="true"></i>
+            </a>
+            <a href="hasil.html" class="menu-item">
+                <span class="menu-icon" aria-hidden="true"><i data-lucide="clipboard-list"></i></span>
+                <span class="menu-label"><strong>Hasil Biodata</strong><small>Lihat data tersimpan</small></span>
+                <i class="menu-arrow" data-lucide="arrow-up-right" aria-hidden="true"></i>
+            </a>
+            <a href="tabel.html" class="menu-item">
+                <span class="menu-icon" aria-hidden="true"><i data-lucide="table-2"></i></span>
+                <span class="menu-label"><strong>Tabel</strong><small>Jelajahi daftar data</small></span>
+                <i class="menu-arrow" data-lucide="arrow-up-right" aria-hidden="true"></i>
+            </a>
+        </nav>
+
+        <footer class="page-footer"><span>MENJELAJAHI, SATU DATA DALAM SATU WAKTU</span></footer>
+    </main>
+    <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+    <script>lucide.createIcons();</script>
 </body>
 </html>
